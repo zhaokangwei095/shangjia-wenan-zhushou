@@ -49,7 +49,7 @@ language: zh-CN
 
 ### 第 2 步：按平台分别成稿
 
-按 `templates/平台文案模板.md` 的版式，一次交付成套文案：
+按 `templates/platform-copy-templates.md` 的版式，一次交付成套文案：
 
 1. **小红书笔记 ×3 版**：种草版、干货版、活动版；每版含标题（≤20 字）、
 正文（300–500 字）、话题标签 5–8 个（品类词+城市词+场景词）
@@ -65,7 +65,7 @@ language: zh-CN
 
 ### 第 3 步：广告法与平台规则自检（交付前必做）
 
-逐句对照 `references/广告法违禁词清单.md` 检查，有脚本时先跑
+逐句对照 `references/ad-law-banned-words.md` 检查，有脚本时先跑
 `scripts/banned_words_check.py` 自动扫描，再人工逐句复核：
 
 - 绝对化用语：「最、第一、顶级、国家级、唯一、全网最低」等，
@@ -99,15 +99,15 @@ language: zh-CN
 助手：先确认卖点（牛腩炖多久、番茄是否现炒、营业时间），
 再交付小红书 ×3、抖音口播 ×2 和违禁词体检报告；
 若用户初稿写了「全成都最好吃的牛腩面」，体检报告会标出
-绝对化用语并改写为事实表述。完整示例见 `examples/示例-面馆上新.md`。
+绝对化用语并改写为事实表述。完整示例见 `examples/noodle-shop-example.md`。
 
 ## 配套文件
 
-- `references/广告法违禁词清单.md`：自检依据与替换思路
+- `references/ad-law-banned-words.md`：自检依据与替换思路
 - `scripts/banned_words_check.py`：违禁词自动扫描
 （`echo "你的文案" | python3 scripts/banned_words_check.py -`）
-- `templates/平台文案模板.md`：四个平台的标准版式
-- `examples/示例-面馆上新.md`：完整输入→输出示例
+- `templates/platform-copy-templates.md`：四个平台的标准版式
+- `examples/noodle-shop-example.md`：完整输入→输出示例
 
 ## 来源与授权
 

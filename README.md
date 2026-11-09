@@ -35,7 +35,7 @@ echo "全网最低价，最好用的面" | python3 scripts/banned_words_check.py
 ## 目录
 
 - `SKILL.md` — Skill 本体（工作流程、平台写法、自检规则）
-- `references/广告法违禁词清单.md` — 高风险词清单与替换思路
+- `references/ad-law-banned-words.md` — 高风险词清单与替换思路
 - `scripts/banned_words_check.py` — 违禁词自动扫描
 - `templates/` — 四个平台的标准版式
 - `examples/` — 完整输入→输出示例
